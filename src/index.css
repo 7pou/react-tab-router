@@ -1,0 +1,46 @@
+.topMenuComponent {
+  width: 100%;
+}
+.topMenuComponent .topMenuBlock {
+  display: flex;
+}
+.topMenuComponent .topMenuBlock .left {
+  width: calc(-100%);
+}
+.topMenuComponent .topMenuBlock .right {
+  width: 90px;
+  text-align: right;
+}
+.topMenuComponent .topMenuBlock .right button {
+  height: 40px;
+  margin-top: 16px;
+  background-color: #fff;
+  border: none;
+  border-radius: 4px 4px 0 0;
+  position: relative;
+  right: 1px;
+}
+.topMenuComponent
+  .topMenuBlock
+  .ant-tabs.ant-tabs-card
+  > .ant-tabs-bar
+  .ant-tabs-tab {
+  background: none;
+}
+.topMenuComponent
+  .topMenuBlock
+  .ant-tabs.ant-tabs-card
+  > .ant-tabs-bar
+  .ant-tabs-tab-active {
+  background: #fff;
+}
+.topMenuComponent .topMenuBlock .ant-tabs-bar {
+  margin: 0;
+}
+.topMenuComponent .writeBlock {
+  height: 16px;
+  background: #fff;
+  border-left: 1px solid #e8e8e8;
+  border-right: 1px solid #e8e8e8;
+  box-sizing: border-box;
+}

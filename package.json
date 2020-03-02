@@ -1,0 +1,20 @@
+{
+  "name": "react-tab-router",
+  "version": "0.0.1",
+  "description": "react标签路由导航",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "touter"
+  ],
+  "author": "7pou",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^4.0.0",
+    "react": "^16.13.0",
+    "react-router": "^5.1.2"
+  }
+}
